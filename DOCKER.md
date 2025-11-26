@@ -44,8 +44,8 @@ Cloud_Project/
 
 4. **Access the application:**
    - Frontend: http://localhost:80
-   - Backend API: http://localhost:3000
-   - Health check: http://localhost:3000/health
+   - Backend API: https://emergencybackend.azurewebsites.net
+   - Health check: https://emergencybackend.azurewebsites.net/health
 
 ## Services
 

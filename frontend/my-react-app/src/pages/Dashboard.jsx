@@ -9,7 +9,7 @@ import LogsPage from './LogsPage'
 import './Styles/Dashboard.css'
 
 function Dashboard() {
-  const API_BASE = useMemo(() => 'http://localhost:3000', [])
+  const API_BASE = useMemo(() => 'https://emergencybackend.azurewebsites.net', [])
   const { user, getAuthHeaders, loading: authLoading } = useAuth()
   const navigate = useNavigate()
 
