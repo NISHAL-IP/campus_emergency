@@ -1,0 +1,20 @@
+# Ignore environment files
+.env
+**/.env
+
+# Node or Python environment folders
+node_modules/
+venv/
+__pycache__/
+
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+terraform.tfvars
